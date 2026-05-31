@@ -49,7 +49,7 @@ export default function Sidebar() {
       {/* Bottom badge */}
       <div className="mt-auto px-3 py-3 rounded-lg bg-dark-700 gold-border">
         <p className="text-[11px] text-gray-500">Powered by</p>
-        <p className="text-xs text-brand-400 font-semibold">AUKS Technologies</p>
+        <p className="text-xs text-brand-400 font-semibold">softverge.in</p>
       </div>
     </aside>
   )
