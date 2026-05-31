@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: #0d0f14;
+  color: #e8e4d9;
+  font-family: 'DM Sans', sans-serif;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #141720; }
+::-webkit-scrollbar-thumb { background: #c98a12; border-radius: 4px; }
+
+.gold-border {
+  border: 1px solid rgba(201,138,18,0.25);
+}
+
+.glass {
+  background: rgba(28, 32, 48, 0.7);
+  backdrop-filter: blur(12px);
+}
